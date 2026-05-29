@@ -25,7 +25,8 @@ body, html {
   .container{
     display:flex;
     flex-direction: row;
-    height: 90%;
+    gap:10px;
+    height: 75%;
     gap: 30px
   
 
@@ -33,17 +34,23 @@ body, html {
 
   .menu {
     order: 1;
-    background-color: rgb(49, 128, 30);
+    background-color: rgb(100, 180, 134);
     padding: 20px;
     width: 50%;
-    color: rgb(15, 15, 223);
+    color: rgb(0, 0, 0);
 
   }
-
+ 
   .content{
     order: 2;
-    background-color: rgba(32, 83, 19, 0.842);
+    background-color: rgb(123, 143, 123);
     width: 50%;
   }
   
+  footer {
+  background-color: brown;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
   
